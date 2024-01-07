@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solwan Mahmoud - Portfolio</title>
+  <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  
+  <style>
+    body {
+      background-color: #f7e7e8;
+      color: #333333;
+    }
+
+    .navbar {
+      background-color: #b9718c;
+    }
+
+    .navbar-brand {
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+
+    .hero {
+      background-color: #ffffff;
+      padding: 100px 0;
+    }
+
+    .hero h1,
+    .hero p {
+      color: #333333;
+    }
+
+    .btn-primary {
+      background-color: #b9718c;
+      border-color: #b9718c;
+    }
+
+    .btn-primary:hover {
+      background-color: #933c58;
+      border-color: #933c58;
+    }
+
+    #about,
+    #skills,
+    #projects,
+    #contact {
+      background-color: #ffffff;
+      padding: 100px 0;
+    }
+
+    h2.display-4 {
+      color: #b9718c;
+    }
+
+    .bg-light {
+      background-color: #f7e7e8;
+    }
+
+    footer {
+      background-color: #333333;
+      color: #ffffff;
+    }
+
+    .form-control {
+      background-color: #ffffff;
+      border-color: #b9718c;
+      color: #333333;
+    }
+
+    .form-control:focus {
+      background-color: #ffffff;
+      border-color: #933c58;
+      color: #333333;
+    }
+    
+  img:focus {
+    background-color: #ffffff;
+    border-color: #933c58;
+    color: #333333;
+ }
+
+   @keyframes motion {
+    0% {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  #skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #skills li{
+    background-color: #b9718c;
+    margin: 20px;
+    padding: 20px;
+    color: #f7e7e8;
+    transition: opacity 0.3s ease;
+  }
+  #skills li:hover{
+    opacity: 0.8;
+  }
+  .zoom-img{
+    transition: opacity 0.3s ease;
+  }
+  .zoom-img:hover{
+    opacity: 0.2;
+
+  }
+
+  .trans-img{
+    transition: transform 0.5s ease; 
+    width: 70%;
+  }
+  .trans-img:hover {
+      transform: translateX(20px);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Solwan Mahmoud</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-4">Hi, I'm Solwan Mahmoud</h1>
+          <p class="lead">I'm a passionate .NET developer with a love for coding and problem-solving.</p>
+          <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="./photo1687127300.jpeg" alt="Solwan Mahmoud" class="img-fluid trans-img " style="border-radius: 100% 0% 99% 1% / 46% 75% 25% 54%;border-radius: 100% 0% 99% 1% / 46% 75% 25% 54%;">
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="display-4">About Me</h2>
+          <p>I am a dedicated .NET developer with a strong foundation in software development. I have expertise in building robust and scalable web applications using the latest technologies and frameworks.</p>
+          <p>Throughout my career, I have gained experience in developing highly functional and user-friendly applications that meet the clients' requirements and exceed their expectations.</p>
+          <div class="col-lg-10 ">
+            <ul class="list-unstyled">
+              <li><i class="bi bi-telephone"></i> Phone:01093273941 </li>
+              <li><i class="bi bi-envelope-at-fill"></i> Email:solwanmahmoud9977@gamil.com</li>
+              <li><i class="bi bi-github"></i> GitHub: <a href="https://github.com/solwanmahmoud">solwanmahmoud</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="./WhatsApp Image 2023-06-18 at 6.07.34 PM.jpeg" alt="About Me" class="img-fluid trans-img">
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Skills</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <h4 style="color: #333333;">Backend Development</h4>
+          <ul>
+            <li>C#</li>
+            <li>.NET Framework</li>
+            <li>ASP.NET</li>
+            <li>Entity Framework</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4 style="color: #333333;">Frontend Development</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4 style="color: #333333;">Database</h4>
+          <ul>
+            <li>SQL Server</li>
+            <li>MySQL</li>
+            <li>Oracle</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Projects</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./Untitled.png" class="card-img-top  zoom-img" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">CRUDS-PROJECT</h5>
+              <p class="card-text">html CSS and JavaScript project that add delete update and live search in products</p>
+              <a href="https://solwanmahmoud.github.io/CRUDS-PROJECT/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./Untitled2.png" class="card-img-top  zoom-img" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">DOM-Gallery</h5>
+              <p class="card-text">I have designed a gallery section with pop up on the home page, which includes a slider that can be navigated using both mouse and keyboard interactions. This has been achieved by the DOM and various JavaScript events.</p>
+              <a href="https://solwanmahmoud.github.io/DOM-Gallery/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./Untitled3.png" class="card-img-top   zoom-img" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Youtube-clone-ITIproject</h5>
+              <p class="card-text">Youtube clone project</p>
+              <a href="https://solwanmahmoud.github.io/Youtube-clone-ITIproject/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Contact</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p>&copy; 2023 Solwan Mahmoud. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body> </html>
